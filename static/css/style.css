@@ -1,0 +1,32 @@
+.body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.container {
+	/*width: 100%;*/
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.container {
+	flex:1 0 auto !important;
+}
+
+.card-product>.card-content,
+.card-product>.card-action{
+	height: 60px;
+	padding: 4%;
+}
+
+.card-product .card-image img{
+	height: 200px;
+	object-fit: cover;
+}
+
+.klik{
+	cursor: pointer;
+}
